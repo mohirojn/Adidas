@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {         
+    max-width:1140px;         
+    width: 100%;         
+    padding: 0 15px;  
+    margin: 0 auto;       
+}         
+
+.body {
+    font-family: 'Rubik';
+}
+
+.nav {
+    background: #FFFFFF;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+                        
+.nav-list{
+    display: flex;
+ }
+  
+.nav-link {
+    display: inline-block;
+    color: #000000;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight:400;
+    margin-right: 30px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding-top: 31px;
+    padding-bottom: 26px;
+    transition: 0.5s;/* ZADAET PLAVNOST ANIMATSI */
+
+}    
+
+/* HOVER - PSEVDOKLASS DLYA NAVEDENIYA */
+.nav-link:hover {
+   border-color: #000000;
+}
+
+.nav-form {
+    display: flex;
+}
+
+.form-search {
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 10px 0px 0px 10px;
+    padding: 8px 12px;
+    color: #000000;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 216px;
+    width: 100%;
+}
+
+.form-btn{
+    border: none;
+    background:#000000;
+    border-radius: 0px, 10px, 10px, 0px,;
+    color: #FFFFFF; 
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 16px;
+}
+
+.header-content {
+    background: url(../images/Header\ bg.png)no-repeat top / cover; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    color: #FFFFFF;
+    line-height: 70px;
+    font-size:59px;
+    font-weight: 600;
+    font-family: 'Rubik';
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header-description {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 31px;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Rubik';
+}
+
+.card {
+    background: #181D28;
+    width: 25%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card-title {
+    color: #FFFFFF;
+    line-height: 21px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Rubik';
+    margin-top: 24px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card:hover {
+    background: #6B4B6B;
+}
+
+
+.gear {
+    padding:40px 0;
+}
+
+.gear-title {
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Rubik';
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.gear-description {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+
+.gear-description:nth-of-type(1) {
+    margin-bottom: 18px;
+}
+
+.gear-img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.clothing-title {
+    text-align: center;
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Rubik';
+    margin-bottom: 30px;
+}
+
+.clothing-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.clothing-link {
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height:18px;    
+    font-family: 'Rubik';
+}
+
+.clothing-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+.clothing {
+    margin-bottom: 40px;
+}
+
+.footer {
+    background: #181D28;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer-link {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Rubik';
+}
+
